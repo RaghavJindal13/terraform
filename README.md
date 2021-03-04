@@ -1,2 +1,2 @@
 # Terraform
-Various terraform templates to start with aws services.
+Various terraform templates to start with aws services
