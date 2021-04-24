@@ -37,10 +37,10 @@ state list list resources within a terraform state
 ```
 ## Terraform Providers
 major coud providers:
-- [x]AWS
-- [x]Azure
-- [x]GCP
-- [x]Alibaba Cloud
+- [x] AWS
+- [x] Azure
+- [x] GCP
+- [x] Alibaba Cloud
 ## tf
 provider "aws" {<br></br>
   access_key = "ACCESS_KEY_HERE"<br></br>
