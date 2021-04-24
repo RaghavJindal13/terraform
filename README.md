@@ -19,11 +19,6 @@ Other tools by HashiCorp include Vaut-data protection,Consul-networking in the c
 
 ## Commands
 ```
-git status
-git add
-git commit
-```
-```
 apply - builds or changes infrastructure.
 destroy - Destroy terraform managed infratstructure.
 init - initialize a terraform working directory.
