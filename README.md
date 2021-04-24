@@ -1,22 +1,22 @@
 # Terraform
 Various terraform templates to start with aws services
-<br>
+
 Terraform is an IaaC Infrastucture as a Code.
 Other tools by HashiCorp include Vaut-data protection,Consul-networking in the cloud etc
-<br>
+
 ## Terraform vs AWS CloudFormation
 * HCL language while cloudformation is JSON or YAML language
 * Terraform has a lot of more functions than cloud formation
-* Cloudformation has a gigantic file structure
-<br>
+* Cloudformation has a gigantic file structure.
+
 ## IaaC tools
 * Terraform
 * AWS CloudFormation
 * Azure resource manager
 * Google cloud deployment manager
-<br>
+
 > For installation note that it is not available for UNIX but yes it is available for linux and windows ....just download it and add the envireonment valiables to that.
-<br>
+
 ## Commands
 ```
 git status
@@ -52,7 +52,7 @@ provider "aws" {
   secret_key = "SECRET_KEY_HERE"
   region     = "us-east-1"
 }
-<br>
+
 save this code and in the same directory :file_folder: adn write the following commands
 >terraform init
 >terraform plan
