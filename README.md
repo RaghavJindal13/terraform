@@ -42,18 +42,19 @@ major coud providers:
 - [x]GCP
 - [x]Alibaba Cloud
 ## tf
-provider "aws" {
-  access_key = "ACCESS_KEY_HERE"
-  secret_key = "SECRET_KEY_HERE"
-  region     = "us-east-1"
-}
+provider "aws" {<br></br>
+  access_key = "ACCESS_KEY_HERE"<br></br>
+  secret_key = "SECRET_KEY_HERE"<br></br>
+  region     = "us-east-1"<br></br>
+}<br></br>
 
-save this code and in the same directory :file_folder: adn write the following commands
->terraform init
->terraform plan
->terraform apply
-what if we destry the tfstate file build after that or what if we terminate the instance from the console....that is where the kuberneted comes into place
->terraform destroy
+Save this code and in the same directory :file_folder: adn write the following commands
+
+>terraform init <br></br>
+>terraform plan<br></br>
+>terraform apply<br></br>
+What if we destry the tfstate file build after that or what if we terminate the instance from the console....that is where the kuberneted comes into place.<br></br>
+>terraform destroy<br></br>
 
 
 
